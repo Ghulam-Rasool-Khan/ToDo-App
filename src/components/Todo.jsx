@@ -47,7 +47,7 @@ function Todo() {
   }, [todoList])
 
   return (
-    <div className="bg-white w-[89%] max-w-[450px] min-h-[550px] rounded-xl p-7">
+    <div className="bg-white w-[89%] max-w-[450px] h-[500px]  rounded-xl p-7 overflow-y-auto">
       <div className="flex gap-2 my-7 items-center">
         <img src={todo_icon} alt="" className="w-8" />
         <h1 className="text-3xl font-semibold">
