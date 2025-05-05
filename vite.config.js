@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   
-  base: 'ToDo-App',
+  base: '/ToDo-App/',
   plugins: [
     react(),
     tailwindcss(),
